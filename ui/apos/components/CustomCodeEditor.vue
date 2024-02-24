@@ -91,8 +91,8 @@
     import ChevronDeleteIcon from 'vue-material-design-icons/Delete.vue';
     import ChevronDropdownIcon from 'vue-material-design-icons/ChevronDown.vue';
     import ChevronDropupIcon from 'vue-material-design-icons/ChevronUp.vue';
-    import OptionsContainerComponent from 'Components/OptionsContainer.vue';
-    import CustomCodeEditorMixinVue from 'Mixins/CustomCodeEditorMixin.js';
+    import OptionsContainerComponent from './OptionsContainer.vue';
+    import CustomCodeEditorMixinVue from '../mixins/CustomCodeEditorMixin.js';
     // Import lodash
     import _ from 'lodash';
 
@@ -497,5 +497,5 @@
 </script>
 
 <style scoped lang="scss">
-    @import 'Style/editor.scss';
+    @import '../../src/editor.scss';
 </style>
